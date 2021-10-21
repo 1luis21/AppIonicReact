@@ -45,7 +45,7 @@ const Home: React.FC = () => {
             </IonItem>
 
             <IonCardContent>
-              Muy bien... Ahora veamos, ¿Cuál es el lenguaje de Programación para applicaciones Android?
+              Muy bien {text}... Ahora veamos, ¿Cuál es el lenguaje de Programación para applicaciones Android?
             </IonCardContent>
 
 
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
             </IonButton>
 
             <IonButton
-              onClick={() => present('Has acertado!', [{ text: 'Ok' }])}
+              onClick={() => present(`Has acertado ${text}!`, [{ text: 'Ok' }])}
             >
               Kotlin
             </IonButton>
