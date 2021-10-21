@@ -3,21 +3,17 @@ import {
   IonCard,
   IonCardContent,
   IonCardHeader,
-  IonCardSubtitle,
   IonCardTitle,
   IonContent,
   IonHeader,
   IonInput,
   IonItem,
-  IonItemDivider,
   IonPage,
   IonTitle,
   IonToolbar,
-  IonIcon,
   useIonAlert
 } from '@ionic/react';
 
-import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 import React, { useState } from 'react';
 
